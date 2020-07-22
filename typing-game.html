@@ -1,0 +1,43 @@
+﻿<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Typing Game</title>
+		<link rel="stylesheet"type="text/css"href="typing-game.css">
+		<link rel="stylesheet"type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.2.3/animate.min.css">
+	</head>	
+		<body class="background-design">
+			<div class="container">
+				<h1>Typing Game</h1>
+					
+					<!--Instruction-->
+					<div class="instruction">
+						Instruction: <br>
+						Type as many words as you can until the time runs out! <br>
+					</div>
+					
+					<!--Time and Score-->
+					<div class="same-row">
+						<div class="left">
+							<p>Timer</p>
+								<span class="timer" id="timer">20</span>
+						</div>
+						<div class="right">
+							<p>Score</p>
+								<span class="score" id="score">0</span>
+						</div>	
+					</div>
+					
+					<!--Start button & Play Audio-->
+					<audio id="audio" src="Under the sea.mp3"></audio>
+					<audio id="audio2" src="Correct-answer.mp3"></audio>
+					<button id="button" class="btn-start">START</button>
+										
+					<!--Word and Input and Results-->
+					<div class="word">
+						<p class="words" id="words">HELLO</p>
+					</div>
+			</div>
+			<script src="typing-game.js"></script>
+		</body>
+</html>

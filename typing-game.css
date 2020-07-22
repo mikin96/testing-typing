@@ -1,0 +1,96 @@
+﻿.background-design{
+	background-color:purple;
+}
+
+.container{
+	background-color:#FFCCFF;
+	background-position:center;
+	width:500px;
+	height:500px;
+	position:relative;
+	margin:100px auto;
+}
+
+.instruction{
+	color:#FF5050;
+	text-align:center;
+	font-size:14px;
+	font-family:Cambria;
+	margin-top:30px;
+}
+
+.same-row{
+	margin-top:30px;
+}
+
+.left{
+	float:left;
+	padding-left:80px;
+}
+
+.right{
+	float:right;
+	padding-right:80px;
+}
+
+.btn-start{
+	background-position:center;
+	background-color:#FF5050;
+	padding:15px 15px;
+	margin:20px 210px;
+	border:none;
+	cursor:pointer;
+	/*font*/
+	color:white;
+	font-size:18px;
+	font-weight:bold;
+	font-family:Cambria;
+	text-align:center;
+}
+
+.btn-start:hover{
+	background:gray;
+}
+
+h1{
+	color:white;
+	font-size:20px;
+	font-family:Cambria;
+	text-align:center;
+	background-color:#FF5050;
+	line-height:40px;
+}
+
+.left p, .left span, .right p, .right span{
+	color:purple;
+	font-size:18px;
+	font-family:Cambria;
+	font-weight:bold;
+	line-height:1px;
+}
+
+.words{
+	color:gray;
+	font-size:60px;
+	font-family: Cambria;
+	letter-spacing:1px;
+	text-align:center;
+}
+
+.bg{
+	background-color:#CCCCCC;
+}
+
+/*.animated {
+	animation-duration: 1s;
+	animation-fill-mode: both;
+}
+
+@keyframes fadeOut {
+    from {opacity: 1;}
+    to {opacity: 0;}
+}
+
+.fadeOut {
+    animation-name: fadeOut;
+}*/
